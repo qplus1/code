@@ -4,7 +4,7 @@
 #include<vector>
 using namespace std;
 
-int search(vector<int> &num, int target);
+int search(vector<int> &num, int target);  
 int search_insert(vector<int> &num, int target);
 
 int main() {
