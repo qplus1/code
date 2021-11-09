@@ -46,3 +46,10 @@ int main()
     system("pause");
     return 0;
 }
+
+int partition(vector<int> &nums, int left, int right) {
+    int pivot = left;
+    while (left < right) {
+        
+    }
+}

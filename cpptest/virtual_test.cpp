@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class Shape {
-private:
+protected:
     int width;
     int length;
 
@@ -42,5 +42,6 @@ int main() {
     shape = &rect;
     shape->area();
 
+    system("pause");
     return 0;
 }

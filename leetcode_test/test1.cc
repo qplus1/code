@@ -10,7 +10,7 @@ struct TreeNode {
 };
 
 int main() {
-    TreeNode *a;
+    TreeNode a;
     cout<<"val = "<< a->val <<endl;
     system("pause");
     return 0;
